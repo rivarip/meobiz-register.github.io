@@ -62,7 +62,7 @@ body {
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #3498db;
+  border-color: #07e515;
   outline: none;
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
@@ -70,7 +70,7 @@ body {
 .form-group button {
   width: 100%;
   padding: 12px;
-  background: #3498db;
+  background: #039906;
   color: white;
   border: none;
   border-radius: 8px;
@@ -81,22 +81,7 @@ body {
 }
 
 .form-group button:hover {
-  background: #2980b9;
-}
-
-.form-footer {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 14px;
-}
-
-.form-footer a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-.form-footer a:hover {
-  text-decoration: underline;
+  background: #05cf12;
 }
 
 @media (max-width: 480px) {
