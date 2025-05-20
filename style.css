@@ -6,6 +6,18 @@
   box-sizing: border-box;
 } 
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #f7a5ebc8;
