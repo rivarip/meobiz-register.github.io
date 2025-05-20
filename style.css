@@ -8,8 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #039906;
-  background: linear-gradient(0deg, rgba(3, 153, 6, 1) 0%, rgba(0, 250, 0, 1) 100%);
+  background: #f7a5ebc8;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -62,7 +61,7 @@ body {
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #07e515;
+  border-color: #ff20dec8;
   outline: none;
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
@@ -70,7 +69,7 @@ body {
 .form-group button {
   width: 100%;
   padding: 12px;
-  background: #039906;
+  background: #ff20dec8;
   color: white;
   border: none;
   border-radius: 8px;
@@ -81,7 +80,7 @@ body {
 }
 
 .form-group button:hover {
-  background: #05cf12;
+  background: #fe85ecc8;
 }
 
 @media (max-width: 480px) {
