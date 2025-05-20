@@ -1,4 +1,4 @@
-const webhookURL = '';
+const webhookURL = process.env.DISCORD_WEBHOOK;
 
 document.getElementById('daftarForm').addEventListener('submit', function(e) {
   e.preventDefault();
